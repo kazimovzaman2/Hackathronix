@@ -1,12 +1,23 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
 </head>
 <body>
-    Dashboard
+
+    <div class="voice_to_text"> 
+		<h1>Voice to Text Converter</h1>
+        <textarea id="convert_text"></textarea>
+        <button id="click_to_record">Voice To Text</button>
+    </div>
+
+
+
+<script type="text/javascript" src="{% static 'main/js/script.js' %}"></script>
 </body>
 </html>
