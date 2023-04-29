@@ -19,7 +19,7 @@ def login_view(request):
 
         if user is not None:
             login(request, user)
-            return HttpResponseRedirect(reverse("index"))
+            return HttpResponseRedirect(reverse("dashboard"))
         else:
             return render(request, "users/login.html", {
                 "message": "Invalid email and/or password."
