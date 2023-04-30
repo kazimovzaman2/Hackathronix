@@ -46,37 +46,7 @@
 
 
 
-    <!-- <div class="voice_to_text">
-        {% for text in spoken_text %}
-            <li>{{ text.text }}</li>
-            <li>{{ text.user.first_name }}</li>
-            <li>{{ text.created_at }}</li>
-        {% endfor %}
-    </div> -->
 
-
-
-    <article class="container">
-        <div class="header-hus">
-            <div class="profile">
-                <img src="{% static 'landing/img/zaman.png' %}" alt="" class="profile-pic">
-                <p class="header-text">Zaman</p>
-            </div>
-            <p class="room-name">696.21ES</p>
-            <p class="time">1 week ago</p>
-        </div>
-        <hr>
-        <div class="body">
-            <p class="body-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem
-                incidunt ad nesciunt deserunt molestias praesentium beatae reprehenderit, sed id fugiat quam saepe
-                maiores quae libero dignissimos in ut numquam!</p>
-        </div>
-
-        <div class="buttons-for-share">
-            <a href="{% url 'detail-text-1' %}"><i class="fa-solid fa-share fa-2xl"></i></a>    
-        </div>
-
-    </article>
 
     <article class="container">
         <div class="header-hus">
@@ -84,19 +54,22 @@
                 <img src="{% static 'landing/img/huseyn.jpeg' %}" alt="" class="profile-pic">
                 <p class="header-text">Huseyn</p>
             </div>
-            <p class="room-name">694.21ES</p>
+            <p id="subject" class="room-name">694.21ES</p>
             <p class="time">10 week ago</p>
         </div>
         <hr>
         <div class="body">
-            <p class="body-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem
+            <p id="body" class="body-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem
                 incidunt ad nesciunt deserunt molestias praesentium beatae reprehenderit, sed id fugiat quam saepe
                 maiores quae libero dignissimos in ut numquam!</p>
         </div>
 
         <div class="buttons-for-share">
-            <a href="{% url 'detail-text-2' %}"><i class="fa-solid fa-share fa-2xl"></i></a>    
+            <a href=""><i class="fa-regular fa-pen-to-square fa-2xl"></i></a>
+            <button onclick="window.location.href='mailto:kazimovzaman2@gmail.com?subject=' + encodeURIComponent(document.getElementById('subject').innerHTML) + '&body=' + encodeURIComponent(document.getElementById('body').innerHTML)">Mail to</button>
         </div>
+
+
         
     </article>
 

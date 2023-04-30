@@ -47,3 +47,12 @@ def archive(request):
     
     return render(request, "mainApp/archive.html", {"spoken_text": spoken_text})
 
+
+@login_required(login_url='login')
+def detail_text_1(request):
+    return render(request, "mainApp/detail-text-1.html")
+
+
+@login_required(login_url='login')
+def detail_text_2(request):
+    return render(request, "mainApp/detail-text-2.html")
