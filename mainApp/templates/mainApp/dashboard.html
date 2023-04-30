@@ -13,6 +13,8 @@
 <link href="{% static 'landing/css/styles.css' %}" rel="stylesheet">
 <link rel="stylesheet" href="{% static 'landing/css/styles1.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+<link rel="icon" href="{% static 'landing/img/bas-removebg-preview.png' %}">
+
 </head>
 <body>
 
@@ -44,7 +46,7 @@
 
 
     <div class="voice_to_text">
-        <h1>Welcome to Dashboard</h1>
+        <h1 class="dashboard-text-welcome">Welcome to Dashboard</h1>
         <a href="{% url 'create_room' %}" class="btn btn-success">Create new Room</a>
     </div>
 

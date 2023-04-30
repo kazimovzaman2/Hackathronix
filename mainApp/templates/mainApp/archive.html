@@ -13,6 +13,9 @@
 <link href="{% static 'landing/css/styles.css' %}" rel="stylesheet">
 <link rel="stylesheet" href="{% static 'landing/css/styles1.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+<link rel="icon" href="{% static 'landing/img/bas-removebg-preview.png' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
@@ -43,14 +46,61 @@
 
 
 
-    <div class="voice_to_text">
+    <!-- <div class="voice_to_text">
         {% for text in spoken_text %}
             <li>{{ text.text }}</li>
             <li>{{ text.user.first_name }}</li>
             <li>{{ text.created_at }}</li>
         {% endfor %}
-    </div>
+    </div> -->
 
+
+
+    <article class="container">
+        <div class="header-hus">
+            <div class="profile">
+                <img src="{% static 'landing/img/zaman.png' %}" alt="" class="profile-pic">
+                <p class="header-text">Zaman</p>
+            </div>
+            <p class="room-name">696.21ES</p>
+            <p class="time">1 week ago</p>
+        </div>
+        <hr>
+        <div class="body">
+            <p class="body-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem
+                incidunt ad nesciunt deserunt molestias praesentium beatae reprehenderit, sed id fugiat quam saepe
+                maiores quae libero dignissimos in ut numquam!</p>
+        </div>
+
+        <div class="buttons-for-share">
+            <a href=""><i class="fa-regular fa-pen-to-square fa-2xl"></i></a>
+            <a href=""><i class="fa-solid fa-share fa-2xl"></i></a>    
+        </div>
+
+    </article>
+
+    <article class="container">
+        <div class="header-hus">
+            <div class="profile">
+                <img src="{% static 'landing/img/huseyn.jpeg' %}" alt="" class="profile-pic">
+                <p class="header-text">Huseyn</p>
+            </div>
+            <p class="room-name">694.21ES</p>
+            <p class="time">10 week ago</p>
+        </div>
+        <hr>
+        <div class="body">
+            <p class="body-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem
+                incidunt ad nesciunt deserunt molestias praesentium beatae reprehenderit, sed id fugiat quam saepe
+                maiores quae libero dignissimos in ut numquam!</p>
+        </div>
+
+        <div class="buttons-for-share">
+            <a href=""><i class="fa-regular fa-pen-to-square fa-2xl"></i></a>
+            <a href=""><i class="fa-solid fa-share fa-2xl"></i></a>    
+        </div>
+        
+    </article>
 
 
 <script type="text/javascript" src="{% static 'main/js/script.js' %}"></script>

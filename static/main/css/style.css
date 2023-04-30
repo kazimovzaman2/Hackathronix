@@ -44,3 +44,49 @@ button{
   cursor: pointer;
   border-radius: 5px;
 }
+
+
+
+
+
+
+.container {
+  width: 500px;
+  margin-top: 10px;
+  background-color: #222;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+}
+
+.header-hus {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+
+.profile-pic {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+}
+
+.buttons-for-share {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: right;
+}
+
+.fa-share {
+  padding-right: 20px;
+}
+
+.fa-pen-to-square {
+  padding-right: 20px;
+}

@@ -34,7 +34,7 @@ def create_room(request):
     return render(request, 'mainApp/create_room.html')
 
 
-@login_required(login_url='login')
+# @login_required(login_url='login')
 def room_detail(request, unique_link):
     room = get_object_or_404(Room, unique_link=unique_link)
     context = {'room': room}
