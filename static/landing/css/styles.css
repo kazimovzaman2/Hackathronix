@@ -2049,3 +2049,20 @@ hr.hr-heading {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
+.pricing-heading {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#pricing .container {
+	padding-bottom: 40px;
+}
+
+.pricing-column .card-header,
+.pricing-column .card-body,
+.pricing-column .card-body p {
+	background-color: #2f2c3d;
+	color: #fff;
+}
