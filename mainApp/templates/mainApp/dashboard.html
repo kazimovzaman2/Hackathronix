@@ -29,6 +29,8 @@
 
                 
                 {% if request.user.is_authenticated %}
+                <li class="nav-item"><a class="btn btn-link text-white text-decoration-none fs-5 auth" href="{% url 'dashboard' %}">Dashboard</a></button></li>
+                <li class="nav-item"><a class="btn btn-link text-white text-decoration-none fs-5 auth" href="{% url 'archive' %}">Archive</a></button></li>
                 <li class="nav-item"><a class="btn btn-outline-light fs-5 auth" href="{% url 'logout' %}">Logout</a></button></li>
                 {% else %}
                 <li class="nav-item"><a class="btn btn-outline-light fs-5 auth" href="{% url 'login' %}">Sign in</a></button></li>
@@ -40,12 +42,6 @@
     </navbar>
 
 
-
-    <!-- <div class="voice_to_text"> 
-		<h1>Voice to Text Converter</h1>
-        <textarea id="convert_text"></textarea>
-        <button id="click_to_record">Voice To Text</button>
-    </div> -->
 
     <div class="voice_to_text">
         <h1>Welcome to Dashboard</h1>

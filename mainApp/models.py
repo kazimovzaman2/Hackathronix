@@ -12,3 +12,9 @@ class Room(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class SpokenText(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    text = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
