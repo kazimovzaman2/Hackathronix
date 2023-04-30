@@ -56,6 +56,6 @@ def register(request):
                 "message": "Email already taken."
             })
         login(request, user)
-        return HttpResponseRedirect(reverse("index"))
+        return HttpResponseRedirect(reverse("dashboard"))
     else:
         return render(request, "users/register.html")

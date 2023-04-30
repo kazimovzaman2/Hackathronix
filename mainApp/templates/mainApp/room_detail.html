@@ -45,9 +45,15 @@
     <div class="voice_to_text"> 
 		<h1>Voice to Text Converter</h1>
         <textarea id="convert_text"></textarea>
+        {% if request.user.is_authenticated and request.user == room.creator %}
+
         <button id="click_to_record">Voice To Text</button>
+        <button id="stop_recording">Stop</button>
+        {% endif %}
+
         <button id="copy-link" class="btn btn-primary">Copy Link</button>
     </div>
+
 
     <!-- Add a button to copy the room URL to the clipboard -->
 
