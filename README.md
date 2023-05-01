@@ -32,11 +32,8 @@ https://github.com/kazimovzaman2/Smart-Hackathon-2023
 ## 🤝 Contributing
 We welcome contributions to HeaRead! If you'd like to contribute, please fork the repository and submit a pull request.
 
-## 📝 License
-HeaRead is released under the MIT License. See LICENSE for more information.
 
-## 👀 Demo
-You can check out a live demo of HeaRead at [insert link to demo here].
+
 
 Thank you for using HeaRead! We hope it makes a positive impact on the lives of people with hearing impairment and others who struggle with note-taking and comprehension. 🙏
 
