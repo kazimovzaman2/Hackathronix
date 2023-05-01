@@ -1,4 +1,4 @@
-# 👋 Welcome to HeaRead, a project developed for the Smart Hackathon 2023 held by MLK Tech Spe Khazar! 🚀
+# 👋 Welcome to HeaRead
 
 HeaRead is a web application designed to help people with hearing impairment, students, and anyone who wants to take notes in informative talks, meetings, or lectures. 📝💻🎓
 
