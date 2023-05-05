@@ -4,6 +4,7 @@ from django.db import IntegrityError
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
+from django.views.decorators.csrf import csrf_protect
 
 from .models import User
 
@@ -11,6 +12,7 @@ from .models import User
 
 
 
+@csrf_protect
 def login_view(request):
     if request.method == "POST":
         email = request.POST["email"]
@@ -33,6 +35,7 @@ def logout_view(request):
     return redirect(reverse("login"))
 
 
+@csrf_protect
 def register(request):
     if request.method == "POST":
         email = request.POST["email"]
