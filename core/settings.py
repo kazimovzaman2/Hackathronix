@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     "users.apps.UsersConfig",
     "mainApp.apps.MainappConfig",
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
@@ -123,6 +124,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+CSRF_TRUSTED_ORIGINS = ['https://hearead-main.azurewebsites.net']
 
 
 # Static files (CSS, JavaScript, Images)
