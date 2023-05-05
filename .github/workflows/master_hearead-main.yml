@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'hearead-main'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9E5630B9D36F40ADB25D7FEB5AE80284 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A728A6BD667B41949420E85BC3A7707A }}
