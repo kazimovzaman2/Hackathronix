@@ -29,6 +29,9 @@ Our code repository is hosted on GitHub. You can access it by clicking on the fo
 
 https://github.com/kazimovzaman2/Smart-Hackathon-2023
 
+## Demo
+https://hearead-main.azurewebsites.net/
+
 ## 🤝 Contributing
 We welcome contributions to HeaRead! If you'd like to contribute, please fork the repository and submit a pull request.
 
