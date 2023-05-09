@@ -128,12 +128,12 @@ USE_TZ = True
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://hearead-main.azurewebsites.net/',
+    'https://hearead-main.azurewebsites.net',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://hearead-main.azurewebsites.net/',
-    'https://*.azurewebsites.net/',
+    'https://hearead-main.azurewebsites.net',
+    'https://*.azurewebsites.net',
 ]
 
 
