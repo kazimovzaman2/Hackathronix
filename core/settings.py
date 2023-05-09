@@ -126,7 +126,13 @@ USE_L10N = True
 USE_TZ = True
 
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    'https://hearead-main.azurewebsites.net/',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://hearead-main.azurewebsites.net/',
+]
 
 
 # Static files (CSS, JavaScript, Images)
