@@ -132,6 +132,7 @@ CORS_ALLOWED_ORIGINS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'https://hearead-main.azurewebsites.net/',
+    'https://*.azurewebsites.net/',
 ]
 
 
